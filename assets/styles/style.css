@@ -1,0 +1,17 @@
+#root{
+display: flexbox;
+flex-wrap:wrap;
+gap: 10px;
+
+}
+
+.tarjeta{
+    border: 3px solid blue;
+    width: 15rem;
+    height: 15 rem;
+}
+
+.tarjeta img{
+
+    object-fit: cover;
+}
