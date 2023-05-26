@@ -1,17 +1,66 @@
-#root{
-display: flexbox;
-flex-wrap:wrap;
-gap: 10px;
-
+nav{
+background-color: rgb(204, 6, 6) !important;
+margin-bottom: 1cm;
+margin-top: 1cm;
+}
+.btn-outline-success {
+  color: #fbfbfb; /* Cambia aquí el color del texto */
+  border-color: #040404; /* Cambia aquí el color del borde */
+  background-color: #030303; /* Cambia aquí el color de fondo */
 }
 
-.tarjeta{
-    border: 3px solid blue;
-    width: 15rem;
-    height: 15 rem;
+.btn-outline-success:hover {
+  
+  background-color: #f6e103; /* Cambia aquí el color de fondo al pasar el cursor */
+  border-color: #f6e103; /* Cambia aquí el color del borde al pasar el cursor */
+}
+.main { 
+  padding-top: 3cm; 
+  background-color: firebrick; 
+  display: flex;  
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center; 
+  padding:2 pts; 
+ } 
+
+#root {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+} 
+.tarjeta {
+
+    border: 5px solid rgb(204, 6, 6);
+    width: 6cm;
+    height: 6cm;
+    
 }
 
-.tarjeta img{
+.main { 
+   padding-top: 3cm; 
+   background-color: firebrick; 
+   display: flex;  
+   flex-direction: column;  
+   justify-content: center; 
+   align-items: center; 
+   padding:2 pts; 
+  } 
 
-    object-fit: cover;
+
+
+.tarjeta-content{
+
+    border: 1px solid rgb(247, 3, 3);
+    background-color: rgb(246, 222, 5);
+display:flex;
+flex-direction:column;
 }
+ 
+

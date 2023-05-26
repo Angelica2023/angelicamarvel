@@ -3,7 +3,7 @@
   "name": "angelicamarvel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "nodemon marvel.js",
     "test": "echo \"Error: no test specified\" && exit 1"
