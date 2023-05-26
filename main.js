@@ -17,7 +17,7 @@ Numero:${marvel.numero}
 <div class="tarjeta-content">
 <span> Descripción: ${marvel.descripcion.slice(0, 20)}...</span>
 
- Imágen: <img scr=${marvel.imagen.path}.${marvel.imagen.extension} alt="${marvel.name}">
+ Imágen: <img src=${marvel.imagen.path}.${marvel.imagen.extension} alt="${marvel.name}">
  
 
 </div>
@@ -51,7 +51,7 @@ for (let i = 0; i < marveles.length; i++) {
 Numero:${marvel.numero}
 <div class="tarjeta-content">
 <span> Descripción: ${marvel.descripcion}...</span>
-Imágen: <img scr=${marvel.imagen}/>
+Imágen: <img src=${marvel.imagen.path}.${marvel.imagen.extension} alt="${marvel.name}"
 
 
 </div>
